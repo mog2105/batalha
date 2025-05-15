@@ -1,0 +1,32 @@
+# Ignore arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.swp
+
+# Diretórios comuns
+/vendor/
+node_modules/
+.env
+.cache/
+.idea/
+.vscode/
+
+# Arquivos de sistema operacional
+*.bak
+*.orig
+
+# PHPStorm ou outros IDEs
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos do Composer (caso venha a usar)
+composer.lock
+
+# Pastas de build ou testes (caso existam)
+build/
+coverage/
